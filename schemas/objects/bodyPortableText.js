@@ -50,6 +50,18 @@ export default {
                 type: 'boolean'
               }
             ]
+          },
+          {
+            name: 'internalLink',
+            type: 'object',
+            title: 'Internal Link',
+            fields: [
+              {
+                name: 'link',
+                type: 'string',
+                description: 'Paste only the slug for post eg: "my-first-post"'
+              }
+            ]
           }
         ]
       },
