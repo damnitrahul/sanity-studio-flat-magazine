@@ -21,7 +21,8 @@ export default {
                   buildHookId: '5edd2ba57874520905575388',
                   title: 'Blog Website',
                   name: 'sanityadmin',
-                  apiId: '44a2cb72-ab82-4573-94e6-381fb17d5ac7'
+                  // apiId: '44a2cb72-ab82-4573-94e6-381fb17d5ac7'
+                  apiId: '2959a2f5-d392-4b58-88c5-b341f57eed00'
                 }
               ]
             } // https://api.netlify.com/build_hooks/5edd2ba57874520905575388
