@@ -1,4 +1,4 @@
-import {format} from 'date-fns'
+import { format } from 'date-fns'
 
 export default {
   name: 'post',
@@ -39,7 +39,7 @@ export default {
     },
     {
       name: 'excerpt',
-      type: 'excerptPortableText',
+      type: 'text',
       title: 'Excerpt',
       description:
         'This ends up on summary pages, on Google, when people share your post in social media.'
@@ -111,7 +111,7 @@ export default {
       media: 'mainImage',
       featured: 'featured'
     },
-    prepare ({title = 'No title', publishedAt, slug = {}, media, featured = false}) {
+    prepare({ title = 'No title', publishedAt, slug = {}, media, featured = false }) {
       const dateSegment = format(publishedAt, 'YYYY/MM')
       const path = `/${slug.current}`
 
